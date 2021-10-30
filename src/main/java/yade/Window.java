@@ -10,8 +10,8 @@ import static org.lwjgl.system.MemoryUtil.NULL;
 
 public class Window {
 
-    private String title;
-    private int width, height;
+    private final String title;
+    private final int height, width;
     private Long glfwWindow;
 
     private static Window window = null;
